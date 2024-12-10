@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-deferrable-views';
+  count = 0;
+
+  addClick()
+  {
+    ++this.count;
+  }
 }
